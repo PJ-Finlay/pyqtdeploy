@@ -1,0 +1,715 @@
+2020-11-23  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Released as v5.12.2.
+	[72c4f04d2daf] [5.15.2] <5.15-maint>
+
+	* NEWS:
+	Updated the NEWS file.
+	[f8cc63b3c963] <5.15-maint>
+
+2020-10-28  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtPurchasing.msp:
+	Updated to project v15.
+	[49cb446e0723] <5.15-maint>
+
+2020-09-17  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyproject.toml:
+	Require PyQt-builder v1.6 as we no longer specify the sip module and
+	ABI.
+	[2b1b7f094a28] <5.15-maint>
+
+2020-09-11  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.15.1 for changeset b11b5aea2249
+	[94f7b4a552f0] <5.15-maint>
+
+	* NEWS:
+	Released as v5.15.1.
+	[b11b5aea2249] [5.15.1] <5.15-maint>
+
+	* NEWS:
+	Updated the NEWS file.
+	[5d873a069c7a] <5.15-maint>
+
+2020-08-22  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyproject.toml:
+	Set the name of the sip module explicitly.
+	[7c216c3ea2da] <5.15-maint>
+
+	* pyproject.toml:
+	Fixed the specification of the sip module ABI version.
+	[08457441a0fa] <5.15-maint>
+
+2020-05-30  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.15.0 for changeset 0c6701c154bf
+	[e4133c5ad85f]
+
+	* NEWS:
+	Released as v5.15.0.
+	[0c6701c154bf] [5.15.0]
+
+2020-05-29  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[49249a87d178]
+
+2020-05-17  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtPurchasing.msp:
+	Updated for Qt v5.15.0.
+	[be9b288baf29]
+
+2020-05-16  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* Merged the 5.14-maint branch.
+	[3583827ce9d0]
+
+	* .hgignore:
+	Updated .hgignore.
+	[3d0cfa2b68c2] <5.14-maint>
+
+2020-05-09  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyproject.toml:
+	The minimum ABI version is 12.8 which requires SIP v5.3.
+	[fc8b7d235081] <5.14-maint>
+
+2020-02-08  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyproject.toml:
+	Fixed METADATA for commercial wheels.
+	[29721184ca02] <5.14-maint>
+
+2019-12-18  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.14.0 for changeset 363405a6b976
+	[7b1e84b9afcb]
+
+	* NEWS:
+	Released as v5.14.0.
+	[363405a6b976] [5.14.0]
+
+	* pyproject.toml:
+	Fixed a typo in the previous fix.
+	[b04578372de2]
+
+	* pyproject.toml:
+	Fixed requires-dist for commercial wheels.
+	[643bc5340a51]
+
+2019-12-16  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[46195bfadc05]
+
+2019-12-14  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtPurchasing.msp:
+	Updated for Qt v5.14.0.
+	[2b07a38e8a19]
+
+2019-12-12  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* Merged the 5.13-maint branch.
+	[beb5c17f8458]
+
+2019-11-02  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.13.1 for changeset 92759a91648f
+	[1b1392c8d892] <5.13-maint>
+
+	* NEWS:
+	Released as v5.13.1.
+	[92759a91648f] [5.13.1] <5.13-maint>
+
+	* NEWS:
+	Updated the NEWS file.
+	[60b9500f1322] <5.13-maint>
+
+2019-10-03  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyproject.toml:
+	Fixed the name of PEP 566.
+	[94e8a0552654] <5.13-maint>
+
+	* pyproject.toml:
+	Requires PyQt-builder v1.
+	[510f169674a3] <5.13-maint>
+
+2019-10-01  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyproject.toml:
+	Fixed the name of the PyQt-builder project.
+	[9f872ccb9b7d] <5.13-maint>
+
+2019-09-18  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* configure.py:
+	Fixed building against Qt v5.12.5 and later.
+	[6b4411f40d30] <5.13-maint>
+
+2019-09-14  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyproject.toml:
+	Added the requires-dist meta-data.
+	[f138566b047d] <5.13-maint>
+
+2019-09-07  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[3cd78e8660ca] <5.13-maint>
+
+	* pyproject.toml:
+	Temporarily specify PyQt5-build v0.1 as the build system.
+	[10f29585ebab] <5.13-maint>
+
+2019-08-29  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* METADATA.in, README:
+	Updated the README.
+	[a3343f96f1a6] <5.13-maint>
+
+	* METADATA.in, README, pyproject.toml:
+	Added support for building with sip v5.
+	[d12e566ad099] <5.13-maint>
+
+2019-07-03  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.13.0 for changeset 069cddd92daa
+	[e839b1ee0331]
+
+	* NEWS:
+	Released as v5.13.0.
+	[069cddd92daa] [5.13.0]
+
+2019-07-02  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[955d8088a0f5]
+
+2019-06-29  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtPurchasing.msp:
+	Updated for Qt v5.13.0.
+	[388586873003]
+
+2019-06-20  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* rb-product:
+	Updated the minimum PyQt5 wheel.
+	[601e55d153be]
+
+	* Merged the 5.12-maint branch.
+	[c2bf4e317a3b]
+
+	* PyQtPurchasing.msp:
+	Updated for Qt v5.12.4.
+	[d98effb50e7b] <5.12-maint>
+
+2019-04-19  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtPurchasing.msp:
+	Updated for Qt v5.12.3.
+	[527634e08170] <5.12-maint>
+
+2019-03-17  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtPurchasing.msp:
+	Updated for Qt v5.12.2.
+	[e67bac36f85d] <5.12-maint>
+
+2019-02-04  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.12 for changeset b6a9421ef298
+	[4f82fe4d5be9]
+
+	* NEWS:
+	Released as v5.12.
+	[b6a9421ef298] [5.12]
+
+2019-02-02  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, PyQtPurchasing.msp:
+	Updated for Qt v5.12.1.
+	[3db42111f04b]
+
+2018-12-21  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* METADATA.in:
+	Corrected the wheel meta-data version.
+	[48d2a0cdc3c1]
+
+2018-12-15  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[5c2496b5fd1d]
+
+2018-12-13  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtPurchasing.msp, rb-product:
+	Updated for Qt v5.12.0.
+	[631ae80d0765]
+
+2018-10-03  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* Merged the 5.11-maint branch with the trunk.
+	[3f2dc7c2a403]
+
+2018-10-01  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.11.3 for changeset 17f5af0f7165
+	[333b748ea8f2] <5.11-maint>
+
+	* NEWS:
+	Released as v5.11.3.
+	[17f5af0f7165] [5.11.3] <5.11-maint>
+
+2018-09-30  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[5493a99ba268] <5.11-maint>
+
+2018-09-29  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtPurchasing.msp:
+	Added support for Qt v5.11.2.
+	[02ad61f8af01] <5.11-maint>
+
+2018-08-02  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtPurchasing.msp:
+	Added the anticipated 5.9 releases to the timeline.
+	[b2779a56a12a] <5.11-maint>
+
+2018-07-15  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[560846fa7c81] <5.11-maint>
+
+2018-06-29  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.11.2 for changeset 4e157410f1cb
+	[b0b7ee76e692] <5.11-maint>
+
+	* NEWS:
+	Released as v5.11.2.
+	[4e157410f1cb] [5.11.2] <5.11-maint>
+
+	* NEWS:
+	Updated the NEWS file.
+	[aab3928976e8] <5.11-maint>
+
+2018-06-25  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, PyQtPurchasing.msp:
+	Updated the project file version.
+	[ab794ef70261] <5.11-maint>
+
+2018-06-23  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.11.1 for changeset 593b251e3418
+	[1d8c1732cdc7] <5.11-maint>
+
+	* NEWS:
+	Released as v5.11.1.
+	[593b251e3418] [5.11.1] <5.11-maint>
+
+2018-06-22  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.11 for changeset 12f2a3a31617
+	[e852b4deb93f]
+
+	* NEWS:
+	Released as v5.11.
+	[12f2a3a31617] [5.11]
+
+2018-06-21  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[17c7af706b28]
+
+	* PyQtPurchasing.msp:
+	Updated for Qt v5.11.1.
+	[d6cbeb21b080]
+
+2018-06-08  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[5801a76c3736]
+
+	* PyQtPurchasing.msp:
+	Updated for Qt v5.11.0.
+	[886ccef0544c]
+
+2018-06-07  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* rb-product:
+	Update the PyQt5 wheel to use.
+	[4913308a7adf]
+
+	* Merged the 5.10-maint branch.
+	[e69665d7afb5]
+
+2018-06-04  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* configure.py:
+	Added support for the .dist-info directory.
+	[d32e78e42ac8] <5.10-maint>
+
+2018-02-27  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.10.1 for changeset f84b9912e2dd
+	[bc0dc5d8ee0c] <5.10-maint>
+
+	* NEWS:
+	Released as v5.10.1.
+	[f84b9912e2dd] [5.10.1] <5.10-maint>
+
+	* rb-product:
+	Updated the PyQt5 wheel dependency.
+	[0861c0a68e1e] <5.10-maint>
+
+	* NEWS:
+	Updated the NEWS file.
+	[531755a9742f] <5.10-maint>
+
+2018-02-20  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtPurchasing.msp:
+	Updated for Qt v5.10.1.
+	[db2df7003ea0] <5.10-maint>
+
+2018-01-23  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.10 for changeset 96bf5867eb9a
+	[9dfad2e42e52]
+
+	* NEWS:
+	Released as v5.10.
+	[96bf5867eb9a] [5.10]
+
+	* NEWS, rb-product:
+	Updated the NEWS file.
+	[b6b377235d0f]
+
+2018-01-19  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtPurchasing.msp:
+	Updated the project file for metasip v2.3.
+	[70b1ccda302c]
+
+2018-01-17  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtPurchasing.msp:
+	Updated for Qt v5.10.0.
+	[a93554421f3e]
+
+	* Merged the maintenance branch into the trunk.
+	[75595e2c8ac5]
+
+2017-11-23  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.9.2 for changeset a98f8aa5a7d0
+	[310925821a86] <5.9-maint>
+
+	* NEWS:
+	Released as v5.9.2.
+	[a98f8aa5a7d0] [5.9.2] <5.9-maint>
+
+	* PyQtPurchasing.msp:
+	Updated for Qt v5.9.3.
+	[d75f4464dfd4] <5.9-maint>
+
+2017-11-01  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.9.1 for changeset 55c2c50d9827
+	[88351140e069] <5.9-maint>
+
+	* NEWS:
+	Released as v5.9.1.
+	[55c2c50d9827] [5.9.1] <5.9-maint>
+
+	* rb-product:
+	Update the minimum PyQt version.
+	[a6530cf7da32] <5.9-maint>
+
+2017-10-07  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtPurchasing.msp:
+	Updated for Qt v5.9.2.
+	[1ef9e4701ebd] <5.9-maint>
+
+2017-07-03  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.9 for changeset 4ab78ed053bf
+	[38853d2d4428]
+
+	* NEWS:
+	Released as v5.9.
+	[4ab78ed053bf] [5.9]
+
+	* rb-product:
+	Updated the PyQt5 dependency to v5.9.
+	[97521d456ba5]
+
+2017-07-01  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtPurchasing.msp:
+	Updated for Qt v5.9.1.
+	[0974e9bbfe92]
+
+2017-06-04  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgignore, PyQtPurchasing.msp:
+	Updated for Qt v5.9.0.
+	[6faf08c52066]
+
+2017-02-15  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.8 for changeset 7b5f127f5680
+	[02d7280fae24]
+
+	* NEWS:
+	Released as v5.8.
+	[7b5f127f5680] [5.8]
+
+2017-01-24  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtPurchasing.msp, rb-product:
+	Updated for Qt v5.8.0.
+	[4cb6f01f0430]
+
+	* Merged the 5.7 maintenance branch.
+	[65d1a22892bf]
+
+2016-12-25  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.7.1 for changeset f566e396c9d0
+	[bc4881135076] <5.7-maint>
+
+	* NEWS:
+	Released as v5.7.1.
+	[f566e396c9d0] [5.7.1] <5.7-maint>
+
+2016-12-15  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtPurchasing.msp:
+	Updated for Qt v5.7.1.
+	[fe60d095f308] <5.7-maint>
+
+2016-10-25  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtPurchasing.msp, configure.py:
+	Updated for SIP v4.19.
+	[1d6ce50cc4a1] <5.7-maint>
+
+2016-10-04  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* README, configure.py:
+	The --qtpurchasing-version argument is now optional.
+	[6c49931bc55c] <5.7-maint>
+
+2016-09-23  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* rb-product:
+	Added the minimum PyQt5 wheel version to the product file.
+	[a2d593c61b56] <5.7-maint>
+
+2016-09-10  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* configure.py, rb-product:
+	Updated the handling of the minimum SIP version.
+	[8fe47a3cb19e] <5.7-maint>
+
+2016-09-09  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtPurchasing.msp:
+	The limited API is now used.
+	[0b5c8e4f7668] <5.7-maint>
+
+2016-09-08  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtPurchasing.msp:
+	Fixed the QInAppStore ctor.
+	[b3c31ca03523] <5.7-maint>
+
+	* PyQtPurchasing.msp:
+	Updated the project version number.
+	[0c08eb10322a] <5.7-maint>
+
+2016-08-15  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* README:
+	Updated the README.
+	[4667c94fd156] <5.7-maint>
+
+2016-07-25  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* METADATA.in:
+	Removed the Obsoletes tag from METADATA.
+	[6a744a48718d] <5.7-maint>
+
+	* .hgtags:
+	Added tag 5.7 for changeset f860d7dc9080
+	[d5d40cb7b1f3]
+
+	* NEWS:
+	Released as v5.7.
+	[f860d7dc9080] [5.7]
+
+2016-07-22  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* configure.py:
+	Fixed the name of the .api file.
+	[2d055122a1d8]
+
+2016-07-19  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* METADATA.in:
+	Added the wheel METADATA.
+	[de7e565b1f1c]
+
+2016-07-07  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* Makefile, build.py, lib/LICENSE-Commercial.txt,
+	lib/LICENSE.commercial.summary, lib/LICENSE.internal.summary,
+	lib/README, lib/configure.py:
+	Merged the maintenance branch to the trunk.
+	[5648c5c76da4]
+
+	* .hgignore, Makefile, PyQtPurchasing.msp, README, build.py,
+	configure.py, lib/LICENSE.commercial, lib/LICENSE.commercial.short,
+	lib/LICENSE.gpl, lib/LICENSE.gpl.short, lib/LICENSE.internal.short,
+	lib/README, lib/configure.py:
+	Updated for the new build system.
+	[f09ef64dd0fc] <1.0-maint>
+
+	* rb-product:
+	Added the rb-product file.
+	[5c5dedd8857a] <1.0-maint>
+
+	* PyQtPurchasing.msp:
+	Updated for Qt v5.7.0.
+	[fba3f9326ebc] <1.0-maint>
+
+2016-03-14  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* build.py, lib/configure.py:
+	The configure.py boilerplate is applied automatically.
+	[b9e46250baa5] <1.0-maint>
+
+2016-03-13  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* lib/configure.py:
+	Updated the configure.py boilerplate.
+	[651f48722ea3] <1.0-maint>
+
+2016-03-07  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* lib/LICENSE.gpl, lib/configure.py:
+	Updated the SIP minimum version.
+	[ad8d33588228] <1.0-maint>
+
+	* PyQtPurchasing.msp:
+	Updated ot QtPurchasing v1.0.2.
+	[b9fd87c88d22] <1.0-maint>
+
+	* lib/LICENSE.gpl, lib/LICENSE.gpl.short, lib/configure.py:
+	Updated configure.py to handle PEP 484 stub files.
+	[e97a962ccba2] <1.0-maint>
+
+	* Makefile, build.py, lib/README:
+	Add the GPL version.
+	[6a14b6d52bac] <1.0-maint>
+
+	* PyQtPurchasing.msp:
+	Updated the project format to the latest version.
+	[5915ef64e6e6] <1.0-maint>
+
+2015-02-14  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* Makefile, lib/configure.py:
+	Installing into a virtual env should now work. The build system now
+	supports sip5.
+	[e375d99d7081] <1.0-maint>
+
+2015-02-08  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* lib/configure.py:
+	Use sip5 if available.
+	[bb40bca565de] <1.0-maint>
+
+2014-12-22  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* build.py, lib/LICENSE.commercial.short,
+	lib/LICENSE.commercial.summary, lib/LICENSE.internal.short,
+	lib/LICENSE.internal.summary:
+	The license files are now as they are in other products.
+	[2933a8a4dbc0] <1.0-maint>
+
+2014-12-21  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* build.py, lib/LICENSE-Commercial.txt, lib/LICENSE.commercial:
+	Updated the commercial license to v4.0.
+	[c913b3e358ed] <1.0-maint>
+
+2014-09-22  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtPurchasing.msp:
+	Updated the project for v1.0.1.
+	[6d76b94b9f34] <1.0-maint>
+
+2014-07-26  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 1.0 for changeset a548a260401b
+	[6599447c237e]
+
+	* NEWS:
+	Released as v1.0.
+	[a548a260401b] [1.0]
+
+	* Makefile, NEWS, PyQtPurchasing.msp, build.py:
+	Completed the implementation.
+	[075f824d3deb]
+
+	* PyQtPurchasing.msp:
+	Initial scan of header files.
+	[a503c7b67ae0]
+
+	* .hgignore, Makefile, NEWS, PyQtPurchasing.msp, build.py, lib
+	/LICENSE-Commercial.txt, lib/LICENSE.commercial.summary,
+	lib/LICENSE.internal.summary, lib/README, lib/configure.py:
+	Added the initial project stub.
+	[8383c94bb68d]

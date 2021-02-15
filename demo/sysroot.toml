@@ -7,10 +7,6 @@
 disabled_targets = ["ios"]
 version = "1.1.1g"
 
-[OpenSSL.linux]
-install_from_source = false
-
-
 # Python ######################################################################
 
 [Python]
@@ -24,7 +20,7 @@ install_host_from_source = false
 # PyQt ########################################################################
 
 [PyQt]
-version = "5.15.0"
+version = "5.15.2"
 
 [PyQt.android]
 disabled_features = ["PyQt_Desktop_OpenGL", "PyQt_Printer"]
@@ -55,31 +51,31 @@ installed_modules = ["QtCore", "QtGui", "QtNetwork", "QtWidgets",
 # PyQt3D ######################################################################
 
 [PyQt3D]
-version = "5.15.0"
+version = "5.15.2"
 
 
 # PyQtChart ###################################################################
 
 [PyQtChart]
-version = "5.15.0"
+version = "5.15.2"
 
 
 # PyQtDataVisualization #######################################################
 
 [PyQtDataVisualization]
-version = "5.15.0"
+version = "5.15.2"
 
 
 # PyQtPurchasing ##############################################################
 
 [PyQtPurchasing]
-version = "5.15.0"
+version = "5.15.2"
 
 
 # QScintilla ##################################################################
 
 [QScintilla]
-version = "2.11.5"
+version = "2.11.6"
 
 
 # Qt ##########################################################################

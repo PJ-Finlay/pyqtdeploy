@@ -1,0 +1,70 @@
+v5.15.2 23rd November 2020
+  - Build system changes.
+
+v5.15.1 12th September 2020
+  - A bug-fix release.
+
+v5.15.0 1st June 2020
+  - Added support for Qt v5.15.0.
+
+v5.14.0 19th December 2019
+  - Added support for Qt v5.14.0.
+
+v5.13.1 3rd November 2019
+  - Added support for SIP v5.
+
+v5.13.0 5th July 2019
+  - Added support for Qt v5.13.0.
+
+v5.12 10th February 2019
+  - Added support for Qt v5.12.0 and Qt v5.12.1.
+
+v5.11.3 1st October 2018
+  - Added support for Qt v5.11.2.
+
+v5.11.2 2nd July 2018
+  - A bug-fix release.
+
+v5.11.1 24th June 2018
+  - A pseudo-release to create a version number for updated wheels.
+
+v5.11 23rd June 2018
+  - Added support for Qt Data Visualization v5.11.0 and v5.11.1.
+  - A PEP 376 .dist-info directory is created on installation that provides
+    version information for dependent packages and allows pip to uninstall.
+  - Added the --no-dist-info option to configure.py.
+
+v5.10.1 26th February 2018
+  - Added support for Qt Data Visualization v5.10.1.
+
+v5.10 23rd January 2018
+  - Added support for Qt Data Visualization v5.10.0.
+
+v5.9.2 23rd November 2017
+  - Added support for Qt Data Visualization v5.9.3.
+
+v5.9.1 1st November 2017
+  - Added support for Qt Data Visualization v5.9.2.
+
+v5.9 3rd July 2017
+  - Added support for Qt Data Visualization v5.9.0 and v5.9.1.
+
+v5.8 15th February 2017
+  - Added support for Qt Data Visualization v5.8.0.
+
+v5.7.1 25th December 2016
+  - Added support for Qt Data Visualization v5.7.1.
+
+v5.7 25th July 2016
+  - Added support for Qt Data Visualization v5.7.0.
+
+v1.2 24th December 2014
+  - Added support for Qt Data Visualization v1.2.0.
+  - Added the volumetric.py example.
+
+v1.1 3rd July 2014
+  - Added support for Qt Data Visualization v1.1.0.
+  - configure.py now supports cross-compilation to iOS and Android.
+
+v1.0 29th March 2014
+  - Initial release for Qt Data Visualization v1.0.0.

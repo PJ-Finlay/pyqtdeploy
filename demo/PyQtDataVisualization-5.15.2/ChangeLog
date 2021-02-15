@@ -1,0 +1,1021 @@
+2020-11-23  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Released as v5.12.2.
+	[c238b9308fc4] [5.15.2] <5.15-maint>
+
+	* NEWS:
+	Updated the NEWS file.
+	[837a82daa5c3] <5.15-maint>
+
+2020-10-28  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp:
+	Updated to project v15.
+	[10d6dbee8801] <5.15-maint>
+
+2020-09-17  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyproject.toml:
+	Require PyQt-builder v1.6 as we no longer specify the sip module and
+	ABI.
+	[5cdb0f5d911f] <5.15-maint>
+
+2020-09-11  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.15.1 for changeset 80b2425a2405
+	[1175ff9e6388] <5.15-maint>
+
+	* NEWS:
+	Released as v5.15.1.
+	[80b2425a2405] [5.15.1] <5.15-maint>
+
+	* NEWS:
+	Updated the NEWS file.
+	[2554bb1e3e3b] <5.15-maint>
+
+2020-08-22  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyproject.toml:
+	Set the name of the sip module explicitly.
+	[13325e252a2d] <5.15-maint>
+
+	* pyproject.toml:
+	Fixed the specification of the sip module ABI version.
+	[f03226c21392] <5.15-maint>
+
+2020-05-30  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.15.0 for changeset ebb711afe9cf
+	[ecc72dfd913d]
+
+	* NEWS:
+	Released as v5.15.0.
+	[ebb711afe9cf] [5.15.0]
+
+2020-05-29  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[515d75c9f0b2]
+
+2020-05-28  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp:
+	Updates for the the final release of Qt v5.15.0.
+	[1791b7d922d9]
+
+2020-05-17  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp:
+	Updated for Qt v5.15.0.
+	[a4f42be9281a]
+
+2020-05-16  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* Merged the 5.14-maint branch.
+	[50f3bcd462f6]
+
+	* .hgignore:
+	Updated .hgignore.
+	[8547bf8bb05a] <5.14-maint>
+
+2020-05-09  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyproject.toml:
+	The minimum ABI version is 12.8 which requires SIP v5.3.
+	[6eb04b5a0841] <5.14-maint>
+
+2020-02-08  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyproject.toml:
+	Fixed METADATA for the commercial wheels.
+	[69405a12e7bc] <5.14-maint>
+
+2019-12-18  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.14.0 for changeset 66d5be61758f
+	[67f1b863f1e3]
+
+	* NEWS:
+	Released as v5.14.0.
+	[66d5be61758f] [5.14.0]
+
+	* pyproject.toml:
+	Fixed requires-dist for commercial wheels.
+	[378d83a2a9d9]
+
+2019-12-16  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[0ddbe9dd2430]
+
+2019-12-14  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp:
+	Updated for Qt v5.14.0.
+	[787a3b49a427]
+
+2019-12-12  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* Merged the 5.13-maint branch.
+	[a1a304210438]
+
+2019-11-02  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.13.1 for changeset cb7fe40d4c66
+	[3dc449e16bcf] <5.13-maint>
+
+	* NEWS:
+	Released as v5.13.1.
+	[cb7fe40d4c66] [5.13.1] <5.13-maint>
+
+	* NEWS:
+	Updated the NEWS file.
+	[e5191ac1dc2e] <5.13-maint>
+
+2019-10-03  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyproject.toml:
+	Fixed the name of PEP 566.
+	[1f6f33d93705] <5.13-maint>
+
+	* pyproject.toml:
+	Requires PyQt-builder v1.
+	[1b8600a3d274] <5.13-maint>
+
+2019-10-01  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyproject.toml:
+	Fixed the name of the PyQt-builder project.
+	[384d8c282252] <5.13-maint>
+
+2019-09-18  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* configure.py:
+	Fixed building against Qt v5.12.5 and later.
+	[e0b8bc23fec3] <5.13-maint>
+
+2019-09-14  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyproject.toml:
+	Added the requires-dist meta-data.
+	[a28828202eab] <5.13-maint>
+
+2019-09-07  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[9b2f6cd72eb0] <5.13-maint>
+
+	* pyproject.toml:
+	Temporarily specify PyQt-build v0.1 as the build system.
+	[879ffa461062] <5.13-maint>
+
+2019-08-30  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* METADATA.in, README:
+	Fixed the meta-data.
+	[d0b85ebaee0f] <5.13-maint>
+
+	* METADATA.in, README, pyproject.toml:
+	Added support for sip v5.
+	[5aeb65341623] <5.13-maint>
+
+2019-07-03  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.13.0 for changeset ad358c94a194
+	[03d936fbc6f8]
+
+	* NEWS:
+	Released as v5.13.0.
+	[ad358c94a194] [5.13.0]
+
+2019-07-02  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[9910e942a83a]
+
+2019-06-29  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp:
+	Updated for Qt v5.13.0.
+	[b9081a443f01]
+
+2019-06-20  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp:
+	Merged the 5.12-maint branch.
+	[015a6eafc97a]
+
+	* PyQtDataVisualization.msp:
+	Updated for Qt v5.12.4.
+	[0c40a20eaee9] <5.12-maint>
+
+	* rb-product:
+	Updated the minimum PyQt5 wheel.
+	[44e599689223]
+
+	* PyQtDataVisualization.msp:
+	Merged the 5.12-maint branch.
+	[f4bf32587234]
+
+2019-04-19  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp:
+	Added support for Qt v5.12.3.
+	[9a505e28d4e9] <5.12-maint>
+
+2019-03-17  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp:
+	Updated for Qt v5.12.2.
+	[65877b995045] <5.12-maint>
+
+2019-02-04  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.12 for changeset 0780887f1728
+	[eaa09b4f36eb]
+
+	* NEWS:
+	Released as v5.12.
+	[0780887f1728] [5.12]
+
+2019-02-02  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, PyQtDataVisualization.msp:
+	Updated for Qt v5.12.1.
+	[62ceab37513a]
+
+2018-12-21  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* METADATA.in:
+	Corrected the wheel meta-data version.
+	[a2844177df6e]
+
+2018-12-15  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[2b3e9db67536]
+
+2018-12-13  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp, rb-product:
+	Updated for Qt v5.12.0.
+	[6a262a134a52]
+
+2018-10-03  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* Merged the 5.11-maint branch with the trunk.
+	[3ae4b01962e0]
+
+2018-10-01  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.11.3 for changeset e6873386c34a
+	[04d48cf1abf9] <5.11-maint>
+
+	* NEWS:
+	Released as v5.11.3.
+	[e6873386c34a] [5.11.3] <5.11-maint>
+
+2018-09-30  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[fa3c9b595913] <5.11-maint>
+
+2018-09-29  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp:
+	Added support for Qt v5.11.2.
+	[5aff0fa77452] <5.11-maint>
+
+2018-08-02  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp:
+	Added the anticipated 5.9 releases to the timeline.
+	[d4dbef714c30] <5.11-maint>
+
+2018-07-15  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[916295959c11] <5.11-maint>
+
+2018-06-29  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.11.2 for changeset 9ed42ccbdc37
+	[facf049c4f95] <5.11-maint>
+
+	* NEWS:
+	Released as v5.11.2.
+	[9ed42ccbdc37] [5.11.2] <5.11-maint>
+
+	* NEWS:
+	Updated the NEWS file.
+	[559bb94332b9] <5.11-maint>
+
+2018-06-25  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, PyQtDataVisualization.msp:
+	Updated the project file version.
+	[e9012a0c0440] <5.11-maint>
+
+	* PyQtDataVisualization.msp:
+	Fixed all signal signatures.
+	[ff39e90c44f6] <5.11-maint>
+
+2018-06-23  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.11.1 for changeset 7cfc59f99487
+	[4a6b4405b022] <5.11-maint>
+
+	* NEWS:
+	Released as v5.11.1.
+	[7cfc59f99487] [5.11.1] <5.11-maint>
+
+2018-06-22  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.11 for changeset d82541168ade
+	[42590137ac0a]
+
+	* NEWS:
+	Released as v5.11.
+	[d82541168ade] [5.11]
+
+2018-06-21  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[d7738129fd24]
+
+	* PyQtDataVisualization.msp:
+	Updated for Qt v5.11.1.
+	[d7316017defa]
+
+2018-06-08  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, PyQtDataVisualization.msp:
+	Updated for Qt v5.11.0.
+	[3e37cb58b03d]
+
+2018-06-07  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* rb-product:
+	Update the PyQt5 wheel to use.
+	[da591b76ef52]
+
+	* Merged the 5.10-maint branch.
+	[f77e5a5d1960]
+
+2018-06-04  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* configure.py:
+	Added support for the .dist-info directory.
+	[8c6513131b4c] <5.10-maint>
+
+2018-02-27  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.10.1 for changeset 1c05223a6dc9
+	[6206d2571c08] <5.10-maint>
+
+	* NEWS:
+	Released as v5.10.1.
+	[1c05223a6dc9] [5.10.1] <5.10-maint>
+
+	* rb-product:
+	Updated the PyQt5 wheel dependency.
+	[5b5180a6ad5c] <5.10-maint>
+
+	* NEWS:
+	Updated the NEWS file.
+	[511fb9138670] <5.10-maint>
+
+2018-02-20  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp:
+	Updated for Qt v5.10.1.
+	[3b5799c5ff69] <5.10-maint>
+
+2018-01-23  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.10 for changeset 9fe97c0850c2
+	[b1ca64b9d7e9]
+
+	* NEWS:
+	Released as v5.10.
+	[9fe97c0850c2] [5.10]
+
+	* NEWS, rb-product:
+	Updated the NEWS file.
+	[f4017ad5246a]
+
+2018-01-19  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp:
+	Updated the project file for metasip v2.3.
+	[92679ed44f43]
+
+2018-01-17  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp:
+	Updated for Qt v5.10.0.
+	[e793b6d67743]
+
+	* Merged the maintenance branch into the trunk.
+	[129d6ff6016d]
+
+2017-11-23  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.9.2 for changeset d22011a98538
+	[a6b65dbbf2fc] <5.9-maint>
+
+	* NEWS:
+	Released as v5.9.2.
+	[d22011a98538] [5.9.2] <5.9-maint>
+
+	* PyQtDataVisualization.msp:
+	Updated for Qt v5.9.3.
+	[4ce9b7ee255c] <5.9-maint>
+
+2017-11-01  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.9.1 for changeset 043f864175e0
+	[1a103f9209de] <5.9-maint>
+
+	* NEWS:
+	Released as v5.9.1.
+	[043f864175e0] [5.9.1] <5.9-maint>
+
+	* rb-product:
+	Update the minimum PyQt version.
+	[175a498e16c6] <5.9-maint>
+
+2017-10-07  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp:
+	Updated for Qt v5.9.2.
+	[86eeb378b84f] <5.9-maint>
+
+2017-07-03  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.9 for changeset 21de5512be17
+	[c1389174b887]
+
+	* NEWS:
+	Released as v5.9.
+	[21de5512be17] [5.9]
+
+	* rb-product:
+	Updated the PyQt5 dependency to v5.9.
+	[a653c57a6a74]
+
+2017-07-01  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp:
+	Updated for Qt v5.9.1.
+	[605e65272f7d]
+
+2017-06-04  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp:
+	Updated for Qt v5.9.0.
+	[853abb30cddc]
+
+2017-05-30  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* Merged the 5.8-main branch with the trunk.
+	[02107fc1cfc6]
+
+	* .hgignore:
+	Updated .hgignore for the changed build directory.
+	[e77c34a46856] <5.8-maint>
+
+2017-03-01  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* examples/volumetric/heightmaps/layer_ground.png,
+	examples/volumetric/heightmaps/layer_magma.png,
+	examples/volumetric/heightmaps/layer_water.png:
+	Fixed the .png files in the volumetric.py example.
+	[6efe920e4e77] <5.8-maint>
+
+2017-02-15  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.8 for changeset 668975f46378
+	[2ce779150367]
+
+	* NEWS:
+	Released as v5.8.
+	[668975f46378] [5.8]
+
+2017-01-29  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp, rb-product:
+	Updated for Qt v5.8.0.
+	[8331c86478bb]
+
+	* Merged the 5.7-maint branch.
+	[78307c1a6e4a]
+
+2016-12-25  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.7.1 for changeset 1ffd9126d6c7
+	[7cc112c47e1b] <5.7-maint>
+
+	* NEWS:
+	Released as v5.7.1.
+	[1ffd9126d6c7] [5.7.1] <5.7-maint>
+
+2016-12-15  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp:
+	Updated for Qt v5.7.1.
+	[e4cbcbe0a1b7] <5.7-maint>
+
+2016-10-25  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp, configure.py:
+	Updated for SIP v4.19.
+	[59d3be8a9d75] <5.7-maint>
+
+2016-10-04  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* README, configure.py:
+	The --qtdatavisualization-version argument is now optional.
+	[278dfbe6c8cf] <5.7-maint>
+
+2016-09-23  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* rb-product:
+	Added the minimum PyQt5 wheel version to the product file.
+	[452d103bd380] <5.7-maint>
+
+2016-09-10  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* configure.py, rb-product:
+	Updated the handling of the minimum SIP version.
+	[c25cbcd035c2] <5.7-maint>
+
+2016-09-09  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp, configure.py, sip/qlist.sip:
+	The limited API is now used.
+	[d40745266af0] <5.7-maint>
+
+2016-09-08  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp:
+	Updated the project version number.
+	[49efd7512db9] <5.7-maint>
+
+2016-08-15  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* README:
+	Updated the README.
+	[d7afbdc27ba1] <5.7-maint>
+
+2016-07-25  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* METADATA.in:
+	Removed the Obsoletes tag from METADATA.
+	[55ca31ca2af8] <5.7-maint>
+
+	* .hgtags:
+	Added tag 5.7 for changeset 2a4b07769a5b
+	[c12b1a8077a7]
+
+	* NEWS:
+	Released as v5.7.
+	[2a4b07769a5b] [5.7]
+
+2016-07-22  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* configure.py:
+	Fixed the name of the .api file.
+	[9def9950805f]
+
+2016-07-19  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* METADATA.in:
+	Added the wheel METADATA.
+	[d9ecc3041a55]
+
+2016-07-07  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* Makefile, PyQtDataVisualization.msp, QtDataVisualization.versions,
+	README, build.py, configure.py, lib/LICENSE.commercial,
+	lib/LICENSE.commercial.short, lib/LICENSE.gpl,
+	lib/LICENSE.gpl.short, lib/LICENSE.internal.short,
+	lib/QtDataVisualization.versions, lib/README, lib/configure.py, rb-
+	product, sip/qlist.sip:
+	Fixed deprecated annotations. Moved to the new build system.
+	[4921e7e12040]
+
+	* PyQtDataVisualization.msp:
+	Updated to Qt v5.7.0.
+	[9178b0e26130]
+
+	* Merged the 1.2-maint branch.
+	[7ce35c3e4474]
+
+2016-03-18  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp:
+	Updated for QtDataVisualization v1.2.2.
+	[30728e6789c6] <1.2-maint>
+
+2016-03-14  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* build.py, lib/configure.py:
+	The configure.py boilerplate is now applied automatically.
+	[518b63d09d68] <1.2-maint>
+
+2016-03-13  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* lib/configure.py:
+	Updated the configure.py boilerplate.
+	[f5197148aebc] <1.2-maint>
+
+2016-03-07  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp, lib/LICENSE.commercial.short:
+	Updated for QtDataVisualization v1.2.1.
+	[9b95c32d016e] <1.2-maint>
+
+	* Makefile, build.py, lib/LICENSE.gpl, lib/LICENSE.gpl.short,
+	lib/README, lib/configure.py:
+	Added the GPL version.
+	[f3950346ab4c] <1.2-maint>
+
+2015-02-14  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* Makefile, lib/configure.py:
+	Installing into a virtual env should now work. Make sip4 the
+	default.
+	[e27cda8d7d95] <1.2-maint>
+
+2015-02-08  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* Makefile, lib/configure.py:
+	Use sip5 is available.
+	[df5364702f18] <1.2-maint>
+
+2014-12-24  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 1.2 for changeset 12c3b3d54fda
+	[80eaa9776a7a]
+
+	* NEWS:
+	Released as v1.2.
+	[12c3b3d54fda] [1.2]
+
+2014-12-22  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* build.py, lib/LICENSE.commercial.short,
+	lib/LICENSE.commercial.summary, lib/LICENSE.internal.short,
+	lib/LICENSE.internal.summary:
+	The license files are now named as they are in other products.
+	[6cf710b5cacb]
+
+2014-12-21  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* build.py, lib/LICENSE-Commercial.txt, lib/LICENSE.commercial:
+	Updated the commercial license to v4.0.
+	[978c77ffee74]
+
+2014-12-18  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* examples/volumetric/volumetric.py:
+	Completed the volumetric.py example.
+	[1bf38bc280da]
+
+	* examples/volumetric/volumetric.py:
+	More work on the volumetric.py example.
+	[6377bde18e31]
+
+	* examples/volumetric/volumetric.py:
+	Completed the (not yet working) port of the volumetric.py example.
+	[0b0ca6ff8166]
+
+	* PyQtDataVisualization.msp:
+	QVector<uchar> is now mapped to a sip.array and from a buffer
+	object.
+	[0ecbac3677b4]
+
+	* examples/volumetric/volumetric.py:
+	More updates to the volumetric.py example.
+	[573da20c8843]
+
+	* PyQtDataVisualization.msp, lib/QtDataVisualization.versions:
+	Fixed the sub-class convertor code to handle the hidden C++
+	namespace.
+	[6a982290435f]
+
+2014-12-17  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* examples/volumetric/heightmaps/layer_ground.png,
+	examples/volumetric/heightmaps/layer_magma.png,
+	examples/volumetric/heightmaps/layer_water.png,
+	examples/volumetric/volumetric.py:
+	Added the start of the port of the volumetric.py example.
+	[839f764f0e98]
+
+	* PyQtDataVisualization.msp, lib/QtDataVisualization.versions,
+	lib/README:
+	Updated the sub-class convertor code.
+	[6435f2a59290]
+
+	* examples/custominput/custominput.py,
+	examples/custominput/custominput.qrc,
+	examples/custominput/custominput_rc.py,
+	examples/custominput/data.txt, examples/custominput/data/data.txt:
+	The custominput.py example no longer uses pyrcc.
+	[eb346aadedb7]
+
+	* examples/customproxy/customproxy.py,
+	examples/customproxy/customproxy.qrc,
+	examples/customproxy/customproxy_rc.py,
+	examples/customproxy/data/raindata.txt,
+	examples/customproxy/raindata.txt:
+	The customproxy.py example no longer uses pyrcc.
+	[6850f2a8666a]
+
+	* examples/rotations/rotations.py, examples/rotations/rotations.qrc,
+	examples/rotations/rotations_rc.py:
+	The rotations.py example no longer uses pyrcc.
+	[0238168fb01c]
+
+2014-12-16  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* examples/surface/surface.py, examples/surface/surface.qrc,
+	examples/surface/surface_rc.py:
+	Updated the surface.py example to not use pyrcc.
+	[6c8b176f867a]
+
+	* PyQtDataVisualization.msp:
+	Completed the support for QtDataVisualization v1.2.0.
+	[81a4d869632e]
+
+	* Makefile, PyQtDataVisualization.msp:
+	Completed the majority of the support for QtDataVisualization
+	v1.2.0.
+	[ac07a69c8f0c]
+
+	* Merged the 1.1-maint branch with the trunk.
+	[562f9683eea4]
+
+	* build.py:
+	A full ChangeLog is now included in a distribution. Snapshots are
+	now called previews.
+	[fa9978491aff] <1.1-maint>
+
+	* PyQtDataVisualization.msp:
+	Initial scan of QtDataVisualization v1.2.
+	[c664bbb762c7]
+
+2014-07-26  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* lib/LICENSE-Commercial.txt:
+	Updated to v1.4 of the commercial license to include PyQtPurchasing.
+	[8b09860ef6e5] <1.1-maint>
+
+2014-07-11  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* lib/configure.py:
+	Fixed the installation of the QScintilla .api file.
+	[df482c8c9407] <1.1-maint>
+
+2014-07-10  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* lib/configure.py:
+	Fix for when building with a configuration file.
+	[00228ce659ec] <1.1-maint>
+
+	* lib/configure.py:
+	Fix to work around QTBUG-39300.
+	[1eef4fc1777f] <1.1-maint>
+
+2014-07-03  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 1.1 for changeset 4f061e8d5b3a
+	[763d52464332]
+
+	* NEWS:
+	Released as v1.1.
+	[4f061e8d5b3a] [1.1]
+
+2014-07-02  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* Makefile, PyQtDataVisualization.msp,
+	lib/QtDataVisualization.versions:
+	Completed the support for v1.1.0.
+	[b8208f5195ed]
+
+2014-07-01  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp:
+	Scanned v1.1.0.
+	[00b67cc4c133]
+
+	* lib/configure.py:
+	Updated to the latest build system boilerplate.
+	[7be96b081ead]
+
+2014-06-30  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* Makefile, lib/configure.py:
+	Updated the build system so that it uses the boilerplate and
+	supports pyqtdeploy.
+	[8f3b42ada34f]
+
+2014-03-29  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 1.0 for changeset e9208e611b49
+	[63734e4acd8d]
+
+	* NEWS, lib/README:
+	Released as v1.0.
+	[e9208e611b49] [1.0]
+
+2014-03-28  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* examples/customproxy/customproxy.py,
+	examples/customproxy/customproxy.qrc,
+	examples/customproxy/customproxy_rc.py,
+	examples/customproxy/data/raindata.txt:
+	Added the customproxy.py example.
+	[8fe727441592]
+
+	* examples/custominput/custominput.py,
+	examples/custominput/custominput.qrc,
+	examples/custominput/custominput_rc.py,
+	examples/custominput/data/data.txt:
+	Added the custominput.py example.
+	[eb3990c61f74]
+
+	* examples/itemmodel.py, examples/rotations/rotations.py,
+	examples/surface/surface.py:
+	Added the itemmodel.py example.
+	[1d1cf01224ee]
+
+	* examples/rotations/mesh/largesphere.obj,
+	examples/rotations/mesh/narrowarrow.obj,
+	examples/rotations/rotations.py, examples/rotations/rotations.qrc,
+	examples/rotations/rotations_rc.py:
+	Added the rotations.py example.
+	[b89eb0dfa8e2]
+
+2014-03-27  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* examples/scatter.py:
+	Added the scatter.py example.
+	[f31f49183ff2]
+
+	* examples/surface/surface.py:
+	Improvements to surface.py.
+	[bd6b3b23799d]
+
+	* examples/surface/surface.py:
+	Fixes for the surface.py example.
+	[639fc114b3f4]
+
+	* PyQtDataVisualization.msp:
+	Re-ordered several ctors to avoid the wrong overload being called.
+	[2a64659eca14]
+
+	* examples/surface/mountain.png, examples/surface/surface.py,
+	examples/surface/surface.qrc, examples/surface/surface_rc.py:
+	Added the surface.py example.
+	[caaa54f80254]
+
+	* examples/bars.py:
+	Updated the bars.py example.
+	[205147670e08]
+
+	* Makefile, PyQtDataVisualization.msp:
+	Removed the Q3DBox class.
+	[6ee983d13167]
+
+	* PyQtDataVisualization.msp:
+	Updated the project for v1.0.
+	[86e3868abb73]
+
+	* PyQtDataVisualization.msp:
+	Scanned the v1.0 sources.
+	[0b2da4c940d0]
+
+2014-03-22  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* lib/configure.py:
+	Added the --pyqt-sip-flags to configure.py.
+	[9e7b529378d7]
+
+2014-03-14  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* examples/bars.py:
+	Minor cleanup of the bars.py example.
+	[c72275e1c86e]
+
+	* examples/bars.py:
+	Fixes and improvements for the example.
+	[d6c63d0de0c1]
+
+2014-03-13  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* examples/bars.py:
+	Added the initial port of the bars example.
+	[af05451d8e6d]
+
+2014-03-09  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* lib/LICENSE-Commercial.txt:
+	Updates to the license.
+	[f74b5f15a12b]
+
+	* PyQtDataVisualization.msp:
+	Completed the outstanding TODO tasks.
+	[deba10699f6c]
+
+	* build.py, sip/qlist.sip:
+	Added the initial implementation of the required mapped types.
+	[02139544a576]
+
+2014-03-08  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* Makefile, PyQtDataVisualization.msp:
+	Added the QObject sub-class converter code.
+	[3806cbcd9176]
+
+	* PyQtDataVisualization.msp:
+	Completed the wrapping except for some outstaning TODOs.
+	[26f2e3c1d753]
+
+	* Makefile, PyQtDataVisualization.msp, lib/configure.py:
+	More wrapping.
+	[79309dca7609]
+
+2014-03-07  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* Makefile, PyQtDataVisualization.msp:
+	Wrapped Q3DBars and all its dependencies.
+	[eab204eba4d3]
+
+	* PyQtDataVisualization.msp:
+	Wrapped QAbstract3DGraph and all its dependencies.
+	[c9fbb7e5e70f]
+
+2014-03-06  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtDataVisualization.msp:
+	Wrapped the C++ version number information.
+	[d4e9545a9217]
+
+	* PyQtDataVisualization.msp:
+	Removed a workaround for a (now fixed) metaSIP bug.
+	[dc23c3b0e454]
+
+	* PyQtDataVisualization.msp:
+	Parsed the complete library.
+	[0b70093e8f34]
+
+	* PyQtDataVisualization.msp, lib/LICENSE.internal.summary,
+	lib/configure.py:
+	The stub module now builds and can be imported.
+	[daf4a80b748a]
+
+	* PyQtDataVisualization.msp:
+	Added the Python module version number.
+	[8295079c0e10]
+
+	* PyQtDataVisualization.msp:
+	Wrapped qDefaultSurfaceFormat().
+	[9521660e8b82]
+
+	* .hgignore, Makefile, NEWS, PyQtDataVisualization.msp, build.py, lib
+	/LICENSE-Commercial.txt, lib/LICENSE.commercial.summary,
+	lib/LICENSE.internal.summary, lib/README, lib/configure.py:
+	Initial commit of stub project.
+	[99729153f1a1]

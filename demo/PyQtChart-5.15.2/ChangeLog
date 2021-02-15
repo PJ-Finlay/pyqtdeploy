@@ -1,0 +1,1268 @@
+2020-11-23  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Released as v5.12.2.
+	[c9cb6bf5cc29] [5.15.2] <5.15-maint>
+
+	* NEWS:
+	Updated the NEWS file.
+	[7c6afb25472a] <5.15-maint>
+
+2020-10-28  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp:
+	Updated to project v15.
+	[d7c0152853a4] <5.15-maint>
+
+2020-09-17  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyproject.toml:
+	Require PyQt-builder v1.6 as we no longer specify the sip module and
+	ABI.
+	[82ca837e094e] <5.15-maint>
+
+2020-09-11  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.15.1 for changeset cacc2294aff2
+	[945cbeb0d447] <5.15-maint>
+
+	* NEWS:
+	Released as v5.15.1.
+	[cacc2294aff2] [5.15.1] <5.15-maint>
+
+	* NEWS:
+	Updated the NEWS file.
+	[ebcaa72f8508] <5.15-maint>
+
+2020-08-29  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyproject.toml:
+	Set the name of the sip module explicitly.
+	[533cbfb66e75] <5.15-maint>
+
+	* pyproject.toml:
+	Fixed the specification of the sip module ABI version.
+	[ecdac168c850] <5.15-maint>
+
+	* pyproject.toml:
+	Backed out changeset 6fb1e352db1b
+	[932e963c98d6]
+
+	* pyproject.toml:
+	Backed out changeset 385e8a848dde
+	[0ed547d17da3]
+
+2020-08-22  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyproject.toml:
+	Set the name of the sip module explicitly.
+	[385e8a848dde]
+
+	* pyproject.toml:
+	Fixed the specification of the sip module ABI version.
+	[6fb1e352db1b]
+
+2020-05-30  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.15.0 for changeset 57360c4d17b3
+	[b770bc7c781f]
+
+	* NEWS:
+	Released as v5.15.0.
+	[57360c4d17b3] [5.15.0]
+
+2020-05-29  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[d5a1538c7eaf]
+
+2020-05-17  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp:
+	Updated for Qt v5.15.0.
+	[1225aac33cd7]
+
+2020-05-16  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* Merged the 5.14-maint branch.
+	[03bc84ae034c]
+
+	* .hgignore:
+	Updated .hgignore.
+	[f0885e52a2de] <5.14-maint>
+
+2020-05-09  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyproject.toml:
+	The minimum ABI version is 12.8 which requires SIP v5.3.
+	[c4b84cf9873b] <5.14-maint>
+
+2020-02-08  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyproject.toml:
+	Fixed METADATA for the commercial wheels.
+	[1419849738eb] <5.14-maint>
+
+2019-12-18  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.14.0 for changeset 863e6d8620c7
+	[94a7d426f29f]
+
+	* NEWS:
+	Released as v5.14.0.
+	[863e6d8620c7] [5.14.0]
+
+	* pyproject.toml:
+	Fixed requires-dist for commercial wheels.
+	[f34f66f75d35]
+
+2019-12-16  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[c58e9f3dd5cf]
+
+2019-12-14  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp:
+	Updated for Qt v5.14.0.
+	[a30d72ad83c0]
+
+2019-12-12  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* Merged the 5.13-maint branch.
+	[e5e0645b1781]
+
+2019-11-02  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.13.1 for changeset ee0b4bca19f3
+	[29075d76d4ce] <5.13-maint>
+
+	* NEWS:
+	Released as v5.13.1.
+	[ee0b4bca19f3] [5.13.1] <5.13-maint>
+
+	* NEWS:
+	Updated the NEWS file.
+	[372da0757579] <5.13-maint>
+
+2019-10-03  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyproject.toml:
+	Fixed the name of PEP 566.
+	[0bbcf94cfa4e] <5.13-maint>
+
+	* pyproject.toml:
+	Requires PyQt-builder v1.
+	[c4f54b5a0b67] <5.13-maint>
+
+2019-10-01  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyproject.toml:
+	Fixed the name of the PyQt-builder project.
+	[d95d935b841a] <5.13-maint>
+
+2019-09-18  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* configure.py:
+	Further fixes for Qt v5.12.5 and later.
+	[cabf92280435] <5.13-maint>
+
+	* configure.py:
+	Fixed building against Qt v5.12.5 and later.
+	[e653605f519f] <5.13-maint>
+
+2019-09-14  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyproject.toml:
+	Added the requires-dist meta-data.
+	[c58ee43417df] <5.13-maint>
+
+2019-09-07  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[33eff00c62c7] <5.13-maint>
+
+	* pyproject.toml:
+	Temporarily specify PyQt-build v0.1 as the build system.
+	[899ba9761759] <5.13-maint>
+
+2019-08-30  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* METADATA.in, README:
+	Fixed the meta-data.
+	[edf0b5bef6a7] <5.13-maint>
+
+	* METADATA.in, README, pyproject.toml:
+	Added support for sip v5.
+	[ff8fd6b0958d] <5.13-maint>
+
+	* PyQtChart.msp, configure.py:
+	Removed redundant sip features.
+	[7a13ac0d2f86] <5.13-maint>
+
+2019-07-03  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.13.0 for changeset 1a2babc961e7
+	[ffecfd44bc70]
+
+	* NEWS:
+	Released as v5.13.0.
+	[1a2babc961e7] [5.13.0]
+
+2019-07-02  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[65e47cb990b6]
+
+2019-06-29  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp:
+	Updated for Qt v5.13.0.
+	[33de5da50102]
+
+2019-06-20  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* rb-product:
+	Updated the minimum PyQt5 wheel.
+	[51bdc25de3bd]
+
+	* Merged the 5.12-maint branch.
+	[ebc71e698da9]
+
+	* PyQtChart.msp:
+	Updated for Qt v5.12.4.
+	[1289bf656f8d] <5.12-maint>
+
+2019-04-19  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp:
+	Updated for Qt v5.12.3.
+	[dacfac407292] <5.12-maint>
+
+2019-03-17  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp:
+	Updated for Qt v5.12.2.
+	[db59d4e67410] <5.12-maint>
+
+2019-02-04  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.12 for changeset 419555012daa
+	[56d7c78e1eb7]
+
+	* NEWS:
+	Released as v5.12.
+	[419555012daa] [5.12]
+
+	* PyQtChart.msp:
+	Fixed the QValueAxis.tickTypeChanged() signal.
+	[ec22a5ff8c4f]
+
+2019-02-02  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, PyQtChart.msp:
+	Updated for Qt v5.12.
+	[0a59d9e39e4c]
+
+2018-12-21  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* METADATA.in:
+	Corrected the wheel meta-data version.
+	[4f11d8846c6a]
+
+2018-12-15  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[7092c5b01b89]
+
+2018-12-13  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp, rb-product:
+	Updated for Qt v5.12.0.
+	[b7ba57d7797b]
+
+2018-10-03  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* Merged the 5.11-maint branch with the trunk.
+	[9a3a7acdc24e]
+
+2018-10-01  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.11.3 for changeset 5888ae8a5c13
+	[8313f3d66cf7] <5.11-maint>
+
+	* NEWS:
+	Released as v5.11.3.
+	[5888ae8a5c13] [5.11.3] <5.11-maint>
+
+2018-09-30  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[24ebe2f77fb9] <5.11-maint>
+
+2018-09-29  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp:
+	Added support for Qt v5.11.2.
+	[0763096c0149] <5.11-maint>
+
+2018-08-02  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp:
+	Added the anticipated 5.9 releases to the timeline.
+	[347d4a358ea3] <5.11-maint>
+
+2018-07-15  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[1536b185f7d9] <5.11-maint>
+
+2018-06-29  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.11.2 for changeset ae73c3ff406a
+	[6e2ceaa441aa] <5.11-maint>
+
+	* NEWS:
+	Released as v5.11.2.
+	[ae73c3ff406a] [5.11.2] <5.11-maint>
+
+	* NEWS:
+	Updated the NEWS file.
+	[3cc0b682be86] <5.11-maint>
+
+2018-06-25  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, PyQtChart.msp:
+	Updated the project file version.
+	[23add64f57cd] <5.11-maint>
+
+	* PyQtChart.msp:
+	Fixed all signal signatures.
+	[b1a1888db38d] <5.11-maint>
+
+2018-06-23  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.11.1 for changeset 7446e45613a5
+	[b6a17381b92a] <5.11-maint>
+
+	* NEWS:
+	Released as v5.11.1.
+	[7446e45613a5] [5.11.1] <5.11-maint>
+
+2018-06-22  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.11 for changeset d29dd54a171b
+	[bcff1b8af06c]
+
+	* NEWS:
+	Released as v5.11.
+	[d29dd54a171b] [5.11]
+
+2018-06-21  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[69b9912c8a22]
+
+	* PyQtChart.msp:
+	Updated for Qt v5.11.1.
+	[de21a8b4f013]
+
+2018-06-08  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, PyQtChart.msp:
+	Updated for Qt v5.11.0.
+	[d61721d4cc5f]
+
+2018-06-07  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* rb-product:
+	Update the PyQt5 wheel to use.
+	[db433be8b097]
+
+	* Merged the 5.10-maint branch.
+	[11585da3c530]
+
+2018-06-04  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* configure.py:
+	Added support for the .dist-info directory.
+	[66f144f65b76] <5.10-maint>
+
+2018-02-27  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.10.1 for changeset 9ac64f36ba37
+	[e8596ff9fff9] <5.10-maint>
+
+	* NEWS:
+	Released as v5.10.1.
+	[9ac64f36ba37] [5.10.1] <5.10-maint>
+
+	* rb-product:
+	Updated the PyQt5 wheel dependency.
+	[92635334aa7c] <5.10-maint>
+
+	* NEWS:
+	Updated the NEWS file.
+	[5f62a372e13e] <5.10-maint>
+
+2018-02-20  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp:
+	Updated for Qt v5.10.1.
+	[16629672c935] <5.10-maint>
+
+2018-01-23  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.10 for changeset 7b58b3988041
+	[41eca06d8f41]
+
+	* NEWS:
+	Released as v5.10.
+	[7b58b3988041] [5.10]
+
+	* NEWS:
+	Tweaked the NEWS file.
+	[a8a880e09ada]
+
+	* NEWS, rb-product:
+	Updated the NEWS file.
+	[8410b0de62ad]
+
+2018-01-19  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp:
+	Updated the project file for metasip v2.3.
+	[8c2beb24a54c]
+
+2018-01-17  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp:
+	Updated for Qt v5.10.0.
+	[12105a2bc6d6]
+
+	* Merged the maintenance branch into the trunk.
+	[0508ff4f8407]
+
+2017-11-23  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.9.2 for changeset d71d35ba74cb
+	[1cf2c725ac73] <5.9-maint>
+
+	* NEWS:
+	Released as v5.9.2.
+	[d71d35ba74cb] [5.9.2] <5.9-maint>
+
+	* PyQtChart.msp:
+	Updated for Qt v5.9.3.
+	[1bd586b38ca3] <5.9-maint>
+
+2017-11-01  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.9.1 for changeset 89d387d06049
+	[09a119480844] <5.9-maint>
+
+	* NEWS:
+	Released as v5.9.1.
+	[89d387d06049] [5.9.1] <5.9-maint>
+
+	* rb-product:
+	Update the minimum PyQt version.
+	[846908ebd9f0] <5.9-maint>
+
+2017-10-07  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp:
+	Updated for Qt v5.9.2.
+	[93cdde7c91fa] <5.9-maint>
+
+2017-07-03  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.9 for changeset 0d20bdfbf902
+	[6e2ec173ec11]
+
+	* NEWS:
+	Released as v5.9.
+	[0d20bdfbf902] [5.9]
+
+	* rb-product:
+	Updated the PyQt5 dependency to v5.9.
+	[e82a2b530d29]
+
+2017-07-01  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp:
+	Updated for Qt v5.9.1.
+	[244911d302d3]
+
+2017-06-04  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgignore, PyQtChart.msp:
+	Updated for Qt v5.9.0.
+	[58cf336bc3d7]
+
+2017-02-15  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.8 for changeset d9e49de806fb
+	[cee5647a1986]
+
+	* NEWS:
+	Released as v5.8.
+	[d9e49de806fb] [5.8]
+
+2017-01-29  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp, QtChart.versions, rb-product:
+	Updated for Qt v5.8.0.
+	[341f04a8f980]
+
+	* Merged the 5.7-maint branch.
+	[682e4c3fefaa]
+
+2016-12-25  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.7.1 for changeset 30d186c63232
+	[e4fad0d34701] <5.7-maint>
+
+	* NEWS:
+	Released as v5.7.1.
+	[30d186c63232] [5.7.1] <5.7-maint>
+
+2016-12-15  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp:
+	Updated for Qt v5.7.1.
+	[a33989ecd067] <5.7-maint>
+
+2016-10-25  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* configure.py:
+	Fixed configure.py for Python v2.
+	[bd1bdc75ee99] <5.7-maint>
+
+	* PyQtChart.msp:
+	Changes for SIP v4.19.
+	[b8958aba76f1] <5.7-maint>
+
+2016-10-04  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* README, configure.py:
+	The --qtcharts-version argument is now optional.
+	[2e2ff969425b] <5.7-maint>
+
+2016-09-23  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* rb-product:
+	Added the minimum PyQt5 wheel version to the product file.
+	[0242c3301ee2] <5.7-maint>
+
+2016-09-10  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* configure.py, rb-product:
+	Updated the handling of the minimum SIP version.
+	[cd480decfdfc] <5.7-maint>
+
+2016-09-09  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp:
+	Fixed ownership issues on the setAxisX() and setAxisY() methods of
+	QChart.
+	[ca65df756759] <5.7-maint>
+
+	* configure.py:
+	Bumped the sip dependency to v4.19.
+	[eecbad25ab14] <5.7-maint>
+
+	* PyQtChart.msp:
+	Enable the limited API.
+	[63d3219970fd] <5.7-maint>
+
+2016-09-08  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp:
+	Updated the project version number.
+	[21a69d18be27] <5.7-maint>
+
+2016-08-15  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* README:
+	Updated the README.
+	[67ccd7976b97] <5.7-maint>
+
+2016-07-25  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* METADATA.in:
+	Removed the Obsoletes tag from METADATA.
+	[3b58ceb78ee8] <5.7-maint>
+
+	* .hgtags:
+	Added tag 5.7 for changeset 2f92a6424efc
+	[edd6eceafec3]
+
+	* NEWS:
+	Released as v5.7.
+	[2f92a6424efc] [5.7]
+
+2016-07-22  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, QtChart_v1.versions, README, configure-old.py, configure.py,
+	examples-PyQt4/areachart.py, examples-PyQt4/barchart.py, examples-
+	PyQt4/barmodelmapper.py, examples-PyQt4/boxplotchart/acme_data.txt,
+	examples-PyQt4/boxplotchart/boxplotchart.py, examples-
+	PyQt4/boxplotchart/boxwhisk_data.txt, examples-PyQt4/chartthemes.py,
+	examples-PyQt4/donutbreakdown.py, examples-
+	PyQt4/horizontalbarchart.py, examples-
+	PyQt4/horizontalpercentbarchart.py, examples-
+	PyQt4/horizontalstackedbarchart.py, examples-PyQt4/modeldata.py,
+	examples-PyQt4/percentbarchart.py, examples-PyQt4/polarchart.py:
+	Removed support for PyQt4.
+	[6f5a9016ab2a]
+
+	* configure.py:
+	Fixed the name of the .api file.
+	[ff81c02a70e2]
+
+2016-07-19  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* METADATA.in:
+	Added the wheel METADATA.
+	[4dfd0d73141d]
+
+2016-07-08  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp:
+	Updated for Qt v5.7.0.
+	[6d231f50dde3]
+
+2016-07-07  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* Makefile, QtChart.versions, QtChart_v1.versions, README, build.py,
+	configure-old.py, configure.py, examples-PyQt5/areachart.py,
+	examples-PyQt5/barchart.py, examples-PyQt5/barmodelmapper.py,
+	examples-PyQt5/boxplotchart/acme_data.txt, examples-
+	PyQt5/boxplotchart/boxplotchart.py, examples-
+	PyQt5/boxplotchart/boxwhisk_data.txt, examples-PyQt5/chartthemes.py,
+	examples-PyQt5/donutbreakdown.py, examples-
+	PyQt5/horizontalbarchart.py, examples-
+	PyQt5/horizontalpercentbarchart.py, examples-
+	PyQt5/horizontalstackedbarchart.py, examples-PyQt5/modeldata.py,
+	examples-PyQt5/percentbarchart.py, examples-PyQt5/polarchart.py,
+	examples/areachart.py, examples/barchart.py,
+	examples/barmodelmapper.py, examples/boxplotchart/acme_data.txt,
+	examples/boxplotchart/boxplotchart.py,
+	examples/boxplotchart/boxwhisk_data.txt, examples/chartthemes.py,
+	examples/donutbreakdown.py, examples/horizontalbarchart.py,
+	examples/horizontalpercentbarchart.py,
+	examples/horizontalstackedbarchart.py, examples/modeldata.py,
+	examples/percentbarchart.py, examples/polarchart.py,
+	lib/LICENSE.commercial, lib/LICENSE.commercial.short,
+	lib/LICENSE.gpl, lib/LICENSE.gpl.short, lib/QtChart.versions,
+	lib/QtChart_v1.versions, lib/README, lib/configure-old.py,
+	lib/configure.py, rb-product, rbproduct.py:
+	Moved to the new build system.
+	[df247d6e69d4]
+
+2016-05-25  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 2.1 for changeset 4c1fe56de562
+	[c70a88e3a812]
+
+	* NEWS:
+	Released as v2.1.
+	[4c1fe56de562] [2.1]
+
+	* Makefile, build.py, lib/LICENSE.internal.short, lib/configure.py,
+	rbproduct.py:
+	Added the initial product plugin.
+	[c2010b2599bb]
+
+2016-03-18  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp:
+	Added support for QtChart v2.1.0.
+	[40aed7ff36a9]
+
+	* Merged the 2.0-maint branch with the trunk.
+	[04548e45a29b]
+
+2016-03-14  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* build.py, lib/configure.py:
+	The configure.py boilerplate is now applied automatically.
+	[81d2dc200a5c] <2.0-maint>
+
+2016-03-13  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* lib/configure.py:
+	Updated the configure.py boilerplate.
+	[412ea8f94501] <2.0-maint>
+
+2016-03-07  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp, lib/LICENSE.commercial.short:
+	Updated to QtCharts v2.0.1.
+	[c5d407a8cf29] <2.0-maint>
+
+	* Makefile, build.py, lib/LICENSE.gpl, lib/LICENSE.gpl.short,
+	lib/README, lib/configure.py:
+	Added the GPL version.
+	[fe05c90536ab] <2.0-maint>
+
+2015-02-14  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* Makefile, lib/configure.py:
+	Installing into a virtual env should now work. The internal build
+	system supports sip5.
+	[1145b5e7bb33] <2.0-maint>
+
+2015-02-08  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* lib/configure.py:
+	Use sip5 if available.
+	[707e058895f8] <2.0-maint>
+
+2014-12-24  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 2.0 for changeset c9506dd8c0cb
+	[3d76957ad6f7]
+
+	* NEWS:
+	Released as v2.0.
+	[c9506dd8c0cb] [2.0]
+
+2014-12-22  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* build.py, lib/LICENSE.commercial.short,
+	lib/LICENSE.commercial.summary, lib/LICENSE.internal.short,
+	lib/LICENSE.internal.summary:
+	The license files are now named as they are for other products.
+	[cd296b946d1a]
+
+2014-12-21  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* build.py, lib/LICENSE-Commercial.txt, lib/LICENSE.commercial:
+	Updated the commercial license to v4.0.
+	[e5217abd1f0d]
+
+2014-12-20  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* examples-PyQt4/boxplotchart/boxplotchart.py, examples-
+	PyQt4/boxplotchart/boxplotdata.qrc, examples-
+	PyQt4/boxplotchart/boxplotdata_rc2.py, examples-
+	PyQt4/boxplotchart/boxplotdata_rc3.py, examples-PyQt4/modeldata.py:
+	The boxplotchart.py PyQt4 example no longer uses pyrcc.
+	[333ae61ad0ef]
+
+	* PyQtChart.msp:
+	Added the sub-class convertor code for Qt Charts v1.
+	[53a16c7e42a4]
+
+	* lib/configure.py:
+	Fixed configure.py for building with PyQt4 and Qt Charts v1.
+	[187f5b893000]
+
+	* examples-PyQt5/boxplotchart/boxplotchart.py, examples-
+	PyQt5/boxplotchart/boxplotdata.qrc, examples-
+	PyQt5/boxplotchart/boxplotdata_rc.py:
+	The PyQt5 boxplotchart.py example no longer uses pyrcc.
+	[e72ee73fa2a4]
+
+	* PyQtChart.msp:
+	Added the sub-class convertor code for Qt Charts v2.0.0.
+	[f47f6a1cd376]
+
+	* PyQtChart.msp:
+	Updated for Qt Charts v2.0.0 (except for the sub-class convertor
+	code).
+	[fef3c7c15a19]
+
+	* PyQtChart.msp:
+	Initial scan of Qt Charts v2.0.0 (based on the hacked project file).
+	[ea0a880ca128]
+
+	* PyQtChart.msp:
+	Update handwritten code to handle v1 and v2.
+	[d9a4bc79ee9b]
+
+	* PyQtChart.msp:
+	Changes to the project meta-data to use Qt5 as the basis of the
+	project.
+	[3e454b0d1738]
+
+	* PyQtChart.msp:
+	Manually switched to the QtCharts namespace for all versions in the
+	project file. This is the most convenient solution (ie. the least
+	work overall) for handling the change of namespace name in Qt Charts
+	v2.
+	[b7826c4e0c79]
+
+	* PyQtChart.msp:
+	Backed out the initial scan of Qt Charts v2.0.0.
+	[4ee2532b7de9]
+
+	* Makefile, lib/QtChart.versions, lib/QtChart_v1.versions:
+	Build changes for the different namspaces and that Qt Charts v2 is
+	Qt5 only.
+	[572a926715ff]
+
+2014-12-19  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp:
+	Initial scan of Qt Charts v2.0.0.
+	[d696c1cafe0c]
+
+	* Merged the 1.4-maint branch into the trunk.
+	[0d0df7b22d7c]
+
+	* Makefile:
+	Fixed the internal build system so that PyQt5 is the default.
+	[514cdab302bf] <1.4-maint>
+
+	* build.py:
+	A full ChangeLog is included in a release. Snapshots are now called
+	previews.
+	[667820dfd2d3] <1.4-maint>
+
+	* Makefile, PyQtChart.msp, lib/README, lib/configure.py:
+	Some initial changes fro supporting Qt Charts v2.
+	[1c9abfc53903] <1.4-maint>
+
+2014-07-26  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* lib/LICENSE-Commercial.txt:
+	Updated to v1.4 of the commercial license to include PyQtPurchasing.
+	[29ab13bcf6dc] <1.4-maint>
+
+2014-07-11  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* lib/configure.py:
+	Fixed the installation of the QScintilla .api file.
+	[0449d9c7553d] <1.4-maint>
+
+2014-07-10  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* lib/configure.py:
+	Fix for when building with a configuration file.
+	[7ea2867f2252] <1.4-maint>
+
+	* lib/configure.py:
+	Fix to work around QTBUG-39300.
+	[6e33a1a611aa] <1.4-maint>
+
+2014-07-03  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 1.4 for changeset f2b34e493e5b
+	[0f26a12e2a87]
+
+	* NEWS:
+	Released as v1.4.
+	[f2b34e493e5b] [1.4]
+
+2014-07-02  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp:
+	Completed the support for v1.4.0.
+	[69c9f1458832]
+
+2014-07-01  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp:
+	Scanned v1.4.0.
+	[b211600e106f]
+
+	* Makefile, PyQtChart.msp:
+	Initial scan of v1.4.0.
+	[32d021d823bc]
+
+	* Makefile, lib/configure.py:
+	Updated the build system to use v1.1 of the boilerplate and so
+	support pyqtdeploy.
+	[17930d05d3b8]
+
+	* Merged the 1.3-maint branch.
+	[8763a7fec4be]
+
+2014-03-29  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* lib/README:
+	Updated the README to include the required --qtchart-version flag.
+	[406a2cdb48ab] <1.3-maint>
+
+2014-03-22  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* lib/configure.py:
+	Added --pyqt-sip-flags to configure.py.
+	[bbdc8937b14e] <1.3-maint>
+
+2014-03-09  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* lib/configure.py:
+	configure.py now checks that sip has run successfully.
+	[36cc75984d39] <1.3-maint>
+
+	* lib/LICENSE-Commercial.txt:
+	Updates to the license.
+	[317425bff6d4] <1.3-maint>
+
+2013-11-16  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 1.3.1 for changeset c88200599a1e
+	[b4f3192b364d] <1.3-maint>
+
+	* Makefile, NEWS, lib/configure.py:
+	Released as v1.3.1.
+	[c88200599a1e] [1.3.1] <1.3-maint>
+
+	* PyQtChart.msp, lib/configure-old.py, lib/configure.py:
+	Added support for QtCharts v1.3.1.
+	[2c3d1f50d889] <1.3-maint>
+
+2013-06-24  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 1.3 for changeset 945e90f8a6fa
+	[5e7d77e742ea] <1.3-maint>
+
+	* NEWS:
+	Released as v1.3.
+	[945e90f8a6fa] [1.3] <1.3-maint>
+
+	* examples-PyQt5/boxplotchart/acme_data.txt, examples-
+	PyQt5/boxplotchart/boxplotchart.py, examples-
+	PyQt5/boxplotchart/boxplotdata.qrc, examples-
+	PyQt5/boxplotchart/boxplotdata_rc.py, examples-
+	PyQt5/boxplotchart/boxwhisk_data.txt, examples-PyQt5/polarchart.py:
+	Ported the new examples to PyQt5.
+	[c66f6c05f00b]
+
+	* examples-PyQt4/boxplotchart/acme_data.txt, examples-
+	PyQt4/boxplotchart/boxplotchart.py, examples-
+	PyQt4/boxplotchart/boxplotdata.qrc, examples-
+	PyQt4/boxplotchart/boxplotdata_rc2.py, examples-
+	PyQt4/boxplotchart/boxplotdata_rc3.py, examples-
+	PyQt4/boxplotchart/boxwhisk_data.txt:
+	Added the boxplotchart.py example.
+	[7da9eb9b87a3]
+
+	* examples-PyQt4/polarchart.py:
+	Added the polarchart.py example.
+	[897b6da5a9ec]
+
+	* PyQtChart.msp, lib/QtChart.versions, lib/configure-old.py,
+	lib/configure.py:
+	Added support for QtCharts v1.3.0.
+	[18b764138890]
+
+	* Merged the 1.2-maint branch.
+	[e5660dc247bb]
+
+2013-06-16  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 1.2.1 for changeset 0e170897f412
+	[53f6a5b5a074] <1.2-maint>
+
+	* NEWS:
+	Released as v1.2.1.
+	[0e170897f412] [1.2.1] <1.2-maint>
+
+2013-06-15  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[2153f03571a2] <1.2-maint>
+
+2013-06-12  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* lib/configure.py:
+	Minor tweak to configure.py.
+	[702e185a265a]
+
+2013-06-07  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp:
+	Updated the project format to v4.
+	[0aa5d32dc586]
+
+2013-05-12  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* build.py, examples-PyQt5/areachart.py, examples-PyQt5/barchart.py,
+	examples-PyQt5/barmodelmapper.py, examples-PyQt5/chartthemes.py,
+	examples-PyQt5/donutbreakdown.py, examples-
+	PyQt5/horizontalbarchart.py, examples-
+	PyQt5/horizontalpercentbarchart.py, examples-
+	PyQt5/horizontalstackedbarchart.py, examples-PyQt5/modeldata.py,
+	examples-PyQt5/percentbarchart.py:
+	Added the examples ported to PyQt5.
+	[2eb72b0b1ac6]
+
+2013-05-08  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* lib/configure.py:
+	Fixed configure.py so that it can be run consecutively to build for
+	multiple versions of PyQt without having to start from fresh sources
+	each time.
+	[2474af684085]
+
+2013-05-07  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* Makefile, build.py, examples-PyQt4/areachart.py, examples-
+	PyQt4/barchart.py, examples-PyQt4/barmodelmapper.py, examples-
+	PyQt4/chartthemes.py, examples-PyQt4/donutbreakdown.py, examples-
+	PyQt4/horizontalbarchart.py, examples-
+	PyQt4/horizontalpercentbarchart.py, examples-
+	PyQt4/horizontalstackedbarchart.py, examples-PyQt4/modeldata.py,
+	examples-PyQt4/percentbarchart.py, examples/areachart.py,
+	examples/barchart.py, examples/barmodelmapper.py,
+	examples/chartthemes.py, examples/donutbreakdown.py,
+	examples/horizontalbarchart.py,
+	examples/horizontalpercentbarchart.py,
+	examples/horizontalstackedbarchart.py, examples/modeldata.py,
+	examples/percentbarchart.py, lib/LICENSE.commercial.summary,
+	lib/configure.py:
+	Added support for building against PyQt5.
+	[c3a10e3f1089]
+
+2013-04-21  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 1.2 for changeset 744152d37283
+	[837870a26c02]
+
+	* NEWS:
+	Released as v1.2.
+	[744152d37283] [1.2]
+
+2013-04-20  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* lib/configure.py:
+	configure.py fixes for Windows.
+	[338fea9745de]
+
+2013-04-19  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* Makefile, lib/configure.py:
+	configure.py fixes for building against Qt5.
+	[e0bddfbd203e]
+
+	* Makefile, build.py, lib/configure-old.py, lib/configure.py:
+	Added the new configure.py (relegating the old one to configure-
+	old.py) that is not dependent on sipconfig.
+	[0e616780d5bd]
+
+2013-04-16  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[54438436fc11]
+
+	* PyQtChart.msp:
+	Updated to QtChart v1.2.1.
+	[02c244c96e2a]
+
+	* Makefile, PyQtChart.msp, lib/QtChart.versions, lib/configure.py:
+	Updated to QtCharts v1.2.0.
+	[a4f8d9c419c0]
+
+2012-09-28  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 1.1 for changeset 04398329cca1
+	[2471ce39c062]
+
+	* NEWS:
+	Released as v1.1.
+	[04398329cca1] [1.1]
+
+2012-09-18  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* lib/configure.py:
+	Updated the detection of the Commercial Charts version number now
+	that Digia have said how it is supposed to work.
+	[1f61441a52ef]
+
+2012-09-16  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* examples/horizontalstackedbarchart.py:
+	Added the horizontalstackedbarchart.py example.
+	[971fe15fb4c3]
+
+	* NEWS, examples/horizontalpercentbarchart.py:
+	Added the horizontalpercentbarchart.py example. Updated the NEWS
+	file.
+	[c9545313e8b9]
+
+	* examples/horizontalbarchart.py:
+	Added the horizontalbarchart.py example.
+	[1455e8df52cf]
+
+	* examples/barchart.py:
+	Updated the barchart.py example to match the C++ version.
+	[54ff662d1208]
+
+	* examples/donutbreakdown.py:
+	Added the donutbreakdown.py example.
+	[57dd79b43d23]
+
+	* build.py, examples-1.0.0/areachart.py, examples-1.0.0/barchart.py,
+	examples-1.0.0/barmodelmapper.py, examples-1.0.0/chartthemes.py,
+	examples-1.0.0/modeldata.py, examples-1.0.0/percentbarchart.py,
+	examples/barchart.py, examples/barmodelmapper.py,
+	examples/percentbarchart.py:
+	Moved the original examples to a v1.0.0 specific directory. Updated
+	the examples for v1.1.0.
+	[e72a65827b1f]
+
+	* Makefile, PyQtChart.msp, lib/configure.py:
+	Builds successfully against v1.1.0.
+	[7d689689a7a8]
+
+	* PyQtChart.msp:
+	Updated the MetaSIP project for v1.1.0.
+	[82eed5637620]
+
+2012-07-06  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 1.0 for changeset dcb4d5626080
+	[7f5d89c6172d]
+
+	* NEWS, lib/README:
+	Released as v1.0.
+	[dcb4d5626080] [1.0]
+
+	* examples/areachart.py, examples/barchart.py,
+	examples/barmodelmapper.py, examples/chartthemes.py,
+	examples/modeldata.py, examples/percentbarchart.py:
+	Updated the examples for v1.0.
+	[21d4bcb9e465]
+
+	* PyQtChart.msp:
+	Updated to Qt Commercial Charts v1.0.
+	[172da8951bec]
+
+2012-06-30  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 0.1 for changeset afbf4bf7d149
+	[832b77efabf7]
+
+	* NEWS:
+	Released as v0.1.
+	[afbf4bf7d149] [0.1]
+
+	* .hgtags:
+	Removed tag 1.0beta1
+	[e50ca357a1e6]
+
+	* .hgtags:
+	Added tag 1.0beta1 for changeset 7ca70eaa211c
+	[90800eb3158b]
+
+	* NEWS, lib/README:
+	Released as v1.0beta1. Updated the NEWS and README files.
+	[7ca70eaa211c]
+
+	* examples/barmodelmapper.py, examples/modeldata.py:
+	Added the modeldata.py example. Fixed the barmodelmapper.py example
+	so that it behaves exactly like the C++ version.
+	[c47a2ecc4b8d]
+
+	* examples/barmodelmapper.py:
+	Removed a debug statement from the barmodelmapper.py example.
+	[7feeb7b00d4d]
+
+	* examples/percentbarchart.py:
+	Added the percentbarchart.py example.
+	[53ce92b758d4]
+
+	* PyQtChart.msp:
+	Added the sub-class convertor code.
+	[2a9c481db673]
+
+	* PyQtChart.msp:
+	Make sure all count() methods have the __len__ annotation.
+	[1b0465e7ec9a]
+
+	* PyQtChart.msp:
+	Wrapped the remaining classes.
+	[9e49e6053a24]
+
+2012-06-29  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp, examples/chartthemes.py:
+	Wrapped QXYSeries.points() even though it is marked as internal
+	because the chartthemes.py example needs it and it looks as though
+	it should be part of the API. Wrapped QPieSeries, QPieSlice,
+	QScatterSeries, QSplineSeries and QStackedBarSeries. Added the
+	chartthemes.py example.
+	[8068fa052ab9]
+
+	* PyQtChart.msp, examples/barmodelmapper.py:
+	Wrapped QGroupedBarSeries, QHBarModelMapper and QVBarModelMapper.
+	Added the barmodelmapper.py example.
+	[5f1a057ebbc6]
+
+	* PyQtChart.msp, examples/areachart.py, examples/barchart.py:
+	Wrapped the QBarSeries and QBarSet classes. Added the barchart.py
+	example.
+	[7f500ae6b4fb]
+
+	* PyQtChart.msp, build.py, examples/areachart.py:
+	Wrapped enough to implement the areachart.py example.
+	[cd838c42d7e8]
+
+	* PyQtChart.msp:
+	Wrapped QChart and all its dependents.
+	[00abe03e212f]
+
+	* PyQtChart.msp:
+	Fixed the remaining build issues.
+	[d6e331d6a60d]
+
+2012-06-28  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQtChart.msp, examples/areachart.py, lib/LICENSE.internal.summary:
+	Added the areachart.py example. Initial wrapping of QAbstractSeries.
+	[d13527c59cb1]
+
+	* Makefile, PyQtChart.msp, build.py, lib/configure.py:
+	The Python module will now build and run containg the PyQtChart
+	versioning.
+	[973adaffb56f]
+
+2012-06-26  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgignore, Makefile, NEWS, PyQtChart.msp, build.py, lib/LICENSE-
+	Commercial.txt, lib/LICENSE.commercial.summary,
+	lib/LICENSE.internal.summary, lib/README, lib/configure.py:
+	Added the stub project.
+	[097ab964935d]
