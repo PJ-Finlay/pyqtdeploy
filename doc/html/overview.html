@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>An Overview of the Deployment Process &#8212; pyqtdeploy v3.1.1 User Guide</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/riverbank.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    
+    <link rel="shortcut icon" href="_static/logo_tn.png"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="pyqt-demo" href="demo.html" />
+    <link rel="prev" title="Introduction" href="introduction.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="demo.html" title="pyqt-demo"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="introduction.html" title="Introduction"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pyqtdeploy v3.1.1 User Guide</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">An Overview of the Deployment Process</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="an-overview-of-the-deployment-process">
+<h1>An Overview of the Deployment Process<a class="headerlink" href="#an-overview-of-the-deployment-process" title="Permalink to this headline">¶</a></h1>
+<p>The purpose of <strong class="program">pyqtdeploy</strong> is to convert a Python application, the
+Python interpreter, the Python standard library, Python C extension modules,
+third-party Python packages and third-party extension modules to a single,
+target-specific executable.  Depending on the target the executable may need to
+be packaged in some way to be truly deployable.  For example, Android
+applications need to be signed and packaged as a <code class="docutils literal notranslate"><span class="pre">.apk</span></code> file.  Any such
+packaging is outside the scope of <strong class="program">pyqtdeploy</strong>.</p>
+<p>While <strong class="program">pyqtdeploy</strong> allows you to create a single executable you are
+free to keep components external to the executable if required.</p>
+<p><strong class="program">pyqtdeploy</strong> supports the following target architectures:</p>
+<ul class="simple">
+<li><p>android-32</p></li>
+<li><p>android-64</p></li>
+<li><p>ios-64</p></li>
+<li><p>linux-64</p></li>
+<li><p>macos-64</p></li>
+<li><p>win-32</p></li>
+<li><p>win-64.</p></li>
+</ul>
+<p>The full architecture name consists of the platform and the word size separated
+by a <code class="docutils literal notranslate"><span class="pre">-</span></code>.  Note that not all platform/word size combinations are supported.</p>
+<p><strong class="program">pyqtdeploy</strong> uses the following parts of Qt:</p>
+<ul class="simple">
+<li><p><strong class="program">qmake</strong> is the Qt build system that supports cross-compilation to
+multiple targets.</p></li>
+<li><p><strong class="program">rcc</strong> is a utility that converts arbitrary files to C++ data
+structures that implement an embedded filesystem that can be linked as part
+of an application.</p></li>
+<li><p>The <strong class="program">QtCore</strong> library implements file access APIs that recognise file
+and directory names that refer to the contents of the embedded filesystem
+created with <strong class="program">rcc</strong>.  <strong class="program">pyqtdeploy</strong> implements import hooks
+that use <strong class="program">QtCore</strong> so that frozen Python modules can be imported from
+the embedded filesystem just as if they were being imported from an ordinary
+filesystem.</p></li>
+</ul>
+<p>Note that <strong class="program">pyqtdeploy</strong> generated code does not itself use PyQt.
+<strong class="program">pyqtdeploy</strong> can be used to deploy non-PyQt applications, including
+simple command line scripts.  However, as every deployed application is linked
+with the <strong class="program">QtCore</strong> library, you should make sure that your
+application’s license is compatible with the license of the version of Qt that
+you are using.</p>
+<p>The steps required to develop a deployable application are as follows:</p>
+<ul class="simple">
+<li><p>Develop and test the application as normal using a native Python
+installation containing the required third-party components.</p></li>
+<li><p>Create a sysroot specification file, typically called <code class="file docutils literal notranslate"><span class="pre">sysroot.toml</span></code>,
+that identifies the components (and their exact version numbers) that are
+required.  See <a class="reference internal" href="sysroot.html#ref-building-a-sysroot"><span class="std std-ref">Building a System Root Directory</span></a> to learn how to do this.
+<strong class="program">pyqtdeploy-sysroot</strong> can be used to verify the specification file,
+i.e. that all component versions are mutually compatible.  At this stage it
+is not necessary to actually build the sysroot.  It is common practice to use
+the same sysroot for several applications.</p></li>
+<li><p>Create a project file for the application that identifies the application’s
+source code and all the Python packages and extension modules it uses.  See
+<a class="reference internal" href="pyqtdeploy.html#ref-creating-a-project"><span class="std std-ref">Creating a pyqtdeploy Project</span></a> to learn how to use <strong class="program">pyqtdeploy</strong> to do
+this.</p></li>
+<li><p>Use <strong class="program">pyqtdeploy-sysroot</strong> to build the target-specific sysroot from
+its specification file if it has not already been done.</p></li>
+<li><p>Freeze the Python modules and generate a <strong class="program">qmake</strong> <code class="docutils literal notranslate"><span class="pre">.pro</span></code> file in a
+target-specific build directory.  The <code class="docutils literal notranslate"><span class="pre">.pro</span></code> file will reference all of the
+required components in the associated sysroot.  Run <strong class="program">qmake</strong> and then
+<strong class="program">make</strong> to create the application executable.  See
+<a class="reference internal" href="building.html#ref-building-an-application"><span class="std std-ref">Building the Application</span></a> to learn how to use
+<strong class="program">pyqtdeploy-build</strong> to do this.</p></li>
+</ul>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/logo.png" alt="Logo"/>
+            </a></p>
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="introduction.html"
+                        title="previous chapter">Introduction</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="demo.html"
+                        title="next chapter"><strong class="program">pyqt-demo</strong></a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="demo.html" title="pyqt-demo"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="introduction.html" title="Introduction"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pyqtdeploy v3.1.1 User Guide</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">An Overview of the Deployment Process</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2021, Riverbank Computing Limited.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.4.1.
+    </div>
+  </body>
+</html>

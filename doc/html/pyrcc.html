@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Applications that use pyrcc &#8212; pyqtdeploy v3.1.1 User Guide</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/riverbank.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    
+    <link rel="shortcut icon" href="_static/logo_tn.png"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="The pdytools Module" href="pdytools_module.html" />
+    <link rel="prev" title="Windows and Dynamic Loading of Extension Modules" href="windows_dynamic_loading.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="pdytools_module.html" title="The pdytools Module"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="windows_dynamic_loading.html" title="Windows and Dynamic Loading of Extension Modules"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pyqtdeploy v3.1.1 User Guide</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Applications that use <strong class="program">pyrcc</strong></a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="applications-that-use-pyrcc">
+<h1>Applications that use <strong class="program">pyrcc</strong><a class="headerlink" href="#applications-that-use-pyrcc" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For Python v3.7.0 and later it is recomended that the
+<code class="xref py py-mod docutils literal notranslate"><span class="pre">importlib.resources</span></code> module be used to access embedded resources.</p>
+</div>
+<p>The <strong class="program">pyrcc5</strong> program is the Python equivalent of Qt’s <strong class="program">rcc</strong>
+program.  It converts a collection of resource files into a Python source file
+that is then imported by the application.  <strong class="program">rcc</strong> similarly converts
+the collection of resource files to C++ code.</p>
+<p>Using <strong class="program">rcc</strong> makes it possible to create a C++ application as a single
+executable file.  Having a single file makes such an application easier to
+deploy.  However with <strong class="program">pyrcc5</strong>, while it reduces the number of files
+that need to be deployed, there will always be at least two.  Of course the
+standard Python distribution tools are designed to cope with multiple source
+files, so using <strong class="program">pyrcc5</strong> doesn’t offer any significant benefits.</p>
+<p><strong class="program">pyqtdeploy</strong> itself uses <strong class="program">rcc</strong> to embed all the files
+that make up the applications and does not support the use of the output of
+<strong class="program">pyrcc5</strong> in a deployed application.  In fact it is recommended that
+this program is simply not used irrespective of whether <strong class="program">pyqtdeploy</strong>
+is going to be used or not.</p>
+<p>That leaves the problem of exactly where the resource files are located.
+Fortunately the same technique (and code) will work for an ordinary application
+and for one that has been produced by <strong class="program">pyqtdeploy</strong>.  Lets say we have
+a Python module that creates a number of <code class="xref py py-class docutils literal notranslate"><span class="pre">QIcon</span></code> instances
+that each have the icon loaded from a PNG file.  The PNG files are in a
+sub-directory called <code class="docutils literal notranslate"><span class="pre">images</span></code> in the same directory as the Python module.
+The following code will work in all cases:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Get the name of the directory containing the images directory, either a</span>
+<span class="c1"># directory in the real filesystem, or in the in-memory filesystem created</span>
+<span class="c1"># by rcc.</span>
+<span class="n">_root</span> <span class="o">=</span> <span class="n">QFileInfo</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">absolutePath</span><span class="p">()</span>
+
+<span class="c1"># Now create the icons.  Qt is clever enough to do the right thing on all</span>
+<span class="c1"># platforms.</span>
+<span class="n">new_icon</span> <span class="o">=</span> <span class="n">QIcon</span><span class="p">(</span><span class="n">_root</span> <span class="o">+</span> <span class="s1">&#39;/images/new.png&#39;</span><span class="p">)</span>
+<span class="n">open_icon</span> <span class="o">=</span> <span class="n">QIcon</span><span class="p">(</span><span class="n">_root</span> <span class="o">+</span> <span class="s1">&#39;/images/open.png&#39;</span><span class="p">)</span>
+<span class="n">save_icon</span> <span class="o">=</span> <span class="n">QIcon</span><span class="p">(</span><span class="n">_root</span> <span class="o">+</span> <span class="s1">&#39;/images/save.png&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Unfortunately QML files have to be treated a little differently because they
+are specified using a URL.  Lets say our QML files are in a sub-directory
+called <code class="docutils literal notranslate"><span class="pre">qml</span></code>, we can then extend the code above as follows:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">_root_url</span> <span class="o">=</span> <span class="s1">&#39;qrc:&#39;</span> <span class="k">if</span> <span class="n">_root</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;:&#39;</span><span class="p">)</span> <span class="k">else</span> <span class="n">_root</span>
+
+<span class="n">main_url</span> <span class="o">=</span> <span class="n">QUrl</span><span class="p">(</span><span class="n">_root_url</span> <span class="o">+</span> <span class="s1">&#39;/qml/main.qml&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="section" id="support-for-pep-302-optional-import-hooks">
+<h2>Support for PEP 302 Optional Import Hooks<a class="headerlink" href="#support-for-pep-302-optional-import-hooks" title="Permalink to this headline">¶</a></h2>
+<p>Internally a deployed application contains a <a class="reference external" href="https://www.python.org/dev/peps/pep-0302/">PEP 302</a> compatible module importer (i.e.
+finder and loader) that handles modules embedded in the executable by
+<strong class="program">pyrcc</strong>.  This importer implements the optional <code class="xref py py-func docutils literal notranslate"><span class="pre">get_data()</span></code>,
+<code class="xref py py-func docutils literal notranslate"><span class="pre">get_code()</span></code>, <code class="xref py py-func docutils literal notranslate"><span class="pre">get_source()</span></code> and <code class="xref py py-func docutils literal notranslate"><span class="pre">is_package()</span></code> methods.
+The importer itself is available as the <code class="xref py py-data docutils literal notranslate"><span class="pre">__loader__</span></code> module attribute.</p>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/logo.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Applications that use <strong class="program">pyrcc</strong></a><ul>
+<li><a class="reference internal" href="#support-for-pep-302-optional-import-hooks">Support for PEP 302 Optional Import Hooks</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="windows_dynamic_loading.html"
+                        title="previous chapter">Windows and Dynamic Loading of Extension Modules</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="pdytools_module.html"
+                        title="next chapter">The <code class="xref py py-mod docutils literal notranslate"><span class="pre">pdytools</span></code> Module</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="pdytools_module.html" title="The pdytools Module"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="windows_dynamic_loading.html" title="Windows and Dynamic Loading of Extension Modules"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">pyqtdeploy v3.1.1 User Guide</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Applications that use <strong class="program">pyrcc</strong></a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2021, Riverbank Computing Limited.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.4.1.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Guide &#8212; pyqtdeploy v3.1.1 User Guide</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/riverbank.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    
+    <link rel="shortcut icon" href="_static/logo_tn.png"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Introduction" href="introduction.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="introduction.html" title="Introduction"
+             accesskey="N">next</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">pyqtdeploy v3.1.1 User Guide</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">User Guide</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="user-guide">
+<h1>User Guide<a class="headerlink" href="#user-guide" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="introduction.html#differences-from-version-2">Differences from Version 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="introduction.html#author">Author</a></li>
+<li class="toctree-l2"><a class="reference internal" href="introduction.html#license">License</a></li>
+<li class="toctree-l2"><a class="reference internal" href="introduction.html#installation">Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="overview.html">An Overview of the Deployment Process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo.html"><strong class="program">pyqt-demo</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="demo.html#building-the-demo">Building the Demo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="demo.html#android">Android</a></li>
+<li class="toctree-l2"><a class="reference internal" href="demo.html#ios">iOS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="demo.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="demo.html#macos">macOS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="demo.html#windows">Windows</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="sysroot.html">Building a System Root Directory</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="sysroot.html#standard-component-plugins">Standard Component Plugins</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sysroot.html#creating-a-sysroot-specification-file">Creating a Sysroot Specification File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sysroot.html#the-pyqt-demo-sysroot">The <strong class="program">pyqt-demo</strong> Sysroot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sysroot.html#the-command-line">The Command Line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sysroot.html#writing-a-component-plugin">Writing a Component Plugin</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="pyqtdeploy.html">Creating a <strong class="program">pyqtdeploy</strong> Project</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="pyqtdeploy.html#specifying-the-application-source">Specifying the Application Source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pyqtdeploy.html#specifying-the-imported-packages">Specifying the Imported Packages</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="building.html">Building the Application</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="building.html#the-command-line">The Command Line</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="windows_dynamic_loading.html">Windows and Dynamic Loading of Extension Modules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pyrcc.html">Applications that use <strong class="program">pyrcc</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="pyrcc.html#support-for-pep-302-optional-import-hooks">Support for PEP 302 Optional Import Hooks</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="pdytools_module.html">The <code class="xref py py-mod docutils literal notranslate"><span class="pre">pdytools</span></code> Module</a></li>
+</ul>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="#">
+              <img class="logo" src="_static/logo.png" alt="Logo"/>
+            </a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="introduction.html"
+                        title="next chapter">Introduction</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="introduction.html" title="Introduction"
+             >next</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">pyqtdeploy v3.1.1 User Guide</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">User Guide</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2021, Riverbank Computing Limited.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.4.1.
+    </div>
+  </body>
+</html>
