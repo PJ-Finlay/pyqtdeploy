@@ -35,6 +35,13 @@ sudo apt-get -y install libffi-dev
 
 # From https://stackoverflow.com/questions/65059086/project-error-unknown-modules-in-qt-x11extras
 
+sudo apt-get install -y libfreetype6-dev libfontconfig1-dev libglib2.0-dev \
+            libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libice-dev \
+            libaudio-dev libgl1-mesa-dev libc6-dev libsm-dev libxcursor-dev \
+            libxext-dev libxfixes-dev libxi-dev libxinerama-dev \
+                    libxrandr-dev libxrender-dev libxkbcommon-dev \
+            libxkbcommon-x11-dev libx11-dev
+
 sudo apt-get install -y libxcb1-dev libx11-xcb-dev libxcb-glx0-dev \
             libxcb-icccm4-dev libxcb-image0-dev libxcb-keysyms1-dev \
             libxcb-render0-dev libxcb-render-util0-dev \
@@ -47,6 +54,10 @@ sudo apt-get install -y libpulse-dev libasound2-dev libssl-dev libcups2-dev \
             libxml++2.6-dev postgresql-server-dev-12
 
 sudo apt-get install -y git
+
+# Install Qt
+sudo apt-get install -y qt5-default
+sudo apt-get install -y python3-pyqt5.qtx11extras
 
 
 # Install Python packages
