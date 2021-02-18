@@ -11,6 +11,7 @@ sudo apt-get install -y python3 python3-pip python-is-python3
 
 # Add python scripts to path
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.profile
+export PATH="$HOME/.local/bin:$PATH"
 
 # From https://gist.github.com/suizokukan/8abb8437561048c63080575b54dce70a
 sudo apt-get -y install python
