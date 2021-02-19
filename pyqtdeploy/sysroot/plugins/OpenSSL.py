@@ -236,7 +236,7 @@ class OpenSSLComponent(Component):
 
         # Install the shared libraries.  Qt requires the versioned name and
         # Python requires the unversioned symbolic link.
-        for lib in ('libcrypto', 'libssl'):
+        for lib in ('libssl', 'libcrypto'):
             versioned = lib + '_1_1.so'
 
             shutil.copy(versioned, self.target_lib_dir)
