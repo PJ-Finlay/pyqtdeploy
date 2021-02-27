@@ -1,9 +1,6 @@
 #!/bin/sh
 
 # Not really sure what is needed just installing all packages from two tutorials
-# pyqtdeploy needs to also be installed:
-# cd ..
-# pip3 install -e .
 
 sudo apt-get update
 sudo apt-get -y upgrade
@@ -63,4 +60,7 @@ sudo apt-get install -y python3-pyqt5.qtx11extras
 # Install Python packages
 python3 -m pip install --upgrade pip
 python3 -m pip install -r requirements.txt
+
+
+pip3 install -e ..
 
