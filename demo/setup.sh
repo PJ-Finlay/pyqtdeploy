@@ -26,8 +26,7 @@ sudo apt-get -y install libmysqlclient-dev libdrm-dev libharfbuzz-dev libsqlite-
 
 sudo apt-get -y install cmake libx11-dev xorg-dev libglu1-mesa-dev freeglut3-dev libglew1.5 libglew1.5-dev libglu1-mesa libglu1-mesa-dev libgl1-mesa-glx libgl1-mesa-dev
 
-sudo apt-get upgrade
-sudo apt-get dist-upgrade
+sudo apt-get -y dist-upgrade
 sudo apt-get -y install build-essential python-dev python-setuptools python-pip python-smbus
 sudo apt-get -y install libncursesw5-dev libgdbm-dev libc6-dev
 sudo apt-get -y install zlib1g-dev libsqlite3-dev tk-dev
