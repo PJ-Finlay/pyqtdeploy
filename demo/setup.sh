@@ -59,7 +59,7 @@ sudo apt-get install -y python3-pyqt5.qtx11extras
 
 # Install Python packages
 python3 -m pip install --upgrade pip
-python3 -m pip install -r requirements.txt
+sudo -H python3 -m pip install -r requirements.txt
 
 
 sudo -H pip3 install ..
